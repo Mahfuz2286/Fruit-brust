@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Brust</title>
+
+    <!-- Tailwind and daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Tailwind Custom Colour -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Font awesome icon -->
+
+    <script src="https://kit.fontawesome.com/580ca43c7f.js" crossorigin="anonymous"></script>
+
+    <!-- google font lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <!-- Google font styles -->
+    <style>
+        .font-lato {
+            font-family: 'Lato', sans-serif;
+        }
+    </style>
+</head>
+<header>
+
+</header>
+
+<body class="font-lato ">
+    <main>
+
+        <!-- Deal of the days section -->
+        <section class="mb-10">
+            <div class="flex flex-col lg:flex-row justify-between my-8">
+                <div class="text-center md:text-start lg:text-start pb-8">
+                    <h1 class="text-2xl font-bold mb-5">Deal of the day</h1>
+                    <p>Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+                        <br>
+                        Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+                <!-- Date Container -->
+                <div class="flex sm:text-center gap-4">
+                    <div>
+                        <h1 class="text-2xl bold md:text-3xl lg:text-4xl">29</h1>
+                        <p>Day</p>
+
+                    </div>
+                    <div>
+                        <h1 class="text-2xl bold md:text-3xl lg:text-4xl">15</h1>
+                        <p>Hours</p>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl bold md:text-3xl lg:text-4xl">25</h1>
+                        <p>Minutes</p>
+                    </div>
+                    <div>
+                        <h1 class="text-2xl bold md:text-3xl lg:text-4xl">08</h1>
+                        <p>Second</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Fruit item -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                <!-- Frist Review -->
+                <div class="card bg-base-100 p- border border-gray-400">
+                    <figure><img class="" src="images/fruit6.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center text-center">
+                        <h3>12.90$ - 18.85$</h3>
+                        <p>Apples</p>
+                        <!-- Ratings -->
+                        <div class="rating justify-center">
+
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                        </div>
+                        <div class="text-center space-y-4 mt-4">
+                            <p>Details</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Review -->
+                <div class="card bg-base-100 p- border border-gray-400">
+                    <figure><img  src="images/fruit7.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center text-center">
+                        <h3>12.90$ - 18.85$</h3>
+                        <p>Orange</p>
+                        <!-- Ratings -->
+                        <div class="rating justify-center">
+
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                        </div>
+                        <div class="text-center space-y-4 mt-4">
+                            <p>Details</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Third Review -->
+                <div class="card bg-base-100 border border-gray-400">
+                    <figure><img src="images/fruit8.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center text-center">
+                        <h3>12.90$ - 18.85$</h3>
+                        <p>Red Dragon</p>
+                        <!-- Ratings -->
+                        <div class="rating justify-center">
+
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                        </div>
+                        <div class="text-center space-y-4 mt-4">
+                            <p>Details</p>
+
+                        </div>
+                    </div>
+                </div>
+                <!-- Fourth Review -->
+                <div class="card bg-base-100 p- border border-gray-400">
+                    <figure><img src="images/fruit9.png" alt="Shoes" /></figure>
+                    <div class="card-body items-center text-center">
+                        <h3>12.90$ - 18.85$</h3>
+                        <p>Banana</p>
+                        <!-- Ratings -->
+                        <div class="rating justify-center">
+
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" checked />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                            <input type="radio" name="rating-2" class="mask mask-star-2 bg-red-500" />
+                        </div>
+                        <div class="text-center space-y-4 mt-4">
+                            <p>Details</p>
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+        <!-- Meet the team section -->
+        <section class="mb-10 text-white">
+            <div class="hero" style="background-image: url(images/team.png);">
+                <div>
+                    <div class="lg:max-w-3xl mb-10 mx-auto text-center">
+                        <h1 class="text-4xl font-extrabold mt-8 mb-5">Meet the team section</h1>
+                        <p class="text-lg">Contrary to popular belief, is not simply random text. It has roots in a
+                            piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+
+                        <!-- Four members -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                            <!-- Frist Review -->
+                            <div class="card mt-5">
+                                <figure><img class="w-24" src="/images/member1.png" alt="Shoes" /></figure>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <h4 class="text-sm font-semibold">Regina Miles</h4>
+                                        <p>Banker</p>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Second Review -->
+                            <div class="card mt-5">
+                                <figure><img class="w-24" src="/images/member2.png" alt="Shoes" /></figure>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <h4 class="text-sm font-semibold">Regina Miles</h4>
+                                        <p>Banker</p>
+                                        <div class="gap-1">
+                                            <i class="fa-brands fa-facebook"></i>
+                                            <i class="fa-brands fa-twitter"></i>
+                                            <i class="fa-brands fa-linkedin"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Third Review -->
+                            <div class="card mt-5">
+                                <figure><img class="w-24" src="/images/member3.png" alt="Shoes" /></figure>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <h4 class="text-sm font-semibold">Regina Miles</h4>
+                                        <p>Banker</p>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Fourth Review -->
+                            <div class="card mt-5">
+                                <figure><img class="w-24" src="/images/member4.png" alt="Shoes" /></figure>
+                                <div class="card-body">
+                                    <div class="text-center">
+                                        <h4 class="text-sm font-semibold">Regina Miles</h4>
+                                        <p>Banker</p>
+                                        <i class="fa-brands fa-facebook"></i>
+                                        <i class="fa-brands fa-twitter"></i>
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class=" px-4 lg:px-48 py-14 bg-[#121212] text-white">
+        <div class="flex items-center justify-center gap-2 ">
+            <img src="images/logo.png" alt="">
+            <h4 class="text-2xl font-semibold">Fruit Burst</h4>
+
+        </div>
+        <div class="">
+            <nav class="flex items-center justify-center gap-4 mt-7">
+                <ul>Home</ul>
+                <ul>About Us</ul>
+                <ul>Shop</ul>
+                <ul>All Fruits</ul>
+                <ul>Support</ul>
+                <ul>My Account</ul>
+            </nav>
+            <nav class="flex items-center justify-center gap-4 mt-7 text-xl ">
+
+                <i class=" fa-brands fa-twitter " style="color: #f7f7f7;"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-apple"></i>
+            </nav>
+        </div>
+
+    </footer>
+</body>
+
+</html>
